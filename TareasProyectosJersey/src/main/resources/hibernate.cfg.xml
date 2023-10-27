@@ -25,9 +25,9 @@
 		<property name="connection.driver_class">org.postgresql.Driver</property> -->
 
 		<!-- Mapping conf -->
-		<mapping class="es.bit.models.Usuario" />
-		<mapping class="es.bit.models.Proyecto" />
-		<mapping class="es.bit.models.Tarea" />
+		<mapping class="com.banana.models.Usuario" />
+		<mapping class="com.banana.models.Proyecto" />
+		<mapping class="com.banana.models.Tarea" />
 	</session-factory>
 
 </hibernate-configuration>
